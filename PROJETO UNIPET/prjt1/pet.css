@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family:'Oleo Script';
+  background-color: #2e4a56;
+  color: white;
+}
+
+
+
+.icon{
+    width: 80px;
+    height: 80px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #cfd2d3;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  position: relative;
+}
+
+
+.img{
+    position: absolute;
+width: 639px;
+height: 182px;
+left: 95px;
+top: 820px;
+}
+
+.icon {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  position: absolute;
+  bottom: 20px;
+  background-color: #2e4a56;
+  border: none;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffc72c;
+  margin-bottom: 20px;
+}
+
+.pet-form {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+label {
+  font-weight: bold;
+  color: #ffc72c;
+  margin-top: 20px;
+}
+
+input[type="text"],
+textarea,
+select {
+  background-color: white;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.img{
+ width: 150px;      
+  height: auto; 
+  margin-top: 20px;
+  margin-left: 20px;
+  display: block;  
+}
+
+.upload-area {
+  background-color: white;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.file-input {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #334d5e;
+  color: white;
+  border: 1px solid #666;
+  border-radius: 6px;
+}
+
+.add-photo,
+.add-req{
+  background-color: transparent;
+  color: #ffc72c;
+  font-size: 24px;
+  border: 2px dashed #ffc72c;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.confirm-btn {
+  background-color: #ffc72c;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 30px;
+  align-self: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.hint {
+  font-weight: normal;
+  font-size: 12px;
+  color: #ccc;
+  display: block;
+}
+

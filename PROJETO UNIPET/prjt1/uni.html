@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>UniPet - Cadastro Pet</title>
+  <link rel="stylesheet" href="pet.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="dog1.png" alt="Ícone de cachorro" class="icon">
+      <button class="back-btn">←</button>
+    </aside>
+
+    <main class="form-container">
+      <h1>Adicione um pet</h1>
+      <form class="pet-form">
+        <div class="column">
+          <label>Nome:</label>
+          <input type="text" name="nome">
+
+          <label>Sobre <span class="hint">Máximo de 300 caracteres</span></label>
+          <textarea name="sobre" maxlength="300"></textarea>
+
+          <label>Idade</label>
+          <select name="idade">
+            <option>Filhote</option>
+            <option>Adulto</option>
+            <option>Idoso</option>
+          </select>
+
+          <label>Porte</label>
+          <select name="porte">
+            <option>Pequeno</option>
+            <option>Médio</option>
+            <option>Grande</option>
+          </select>
+
+          <label>Nível de energia</label>
+          <select name="energia">
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option>
+          </select>
+        </div>
+
+         <div class="UNidog">
+            <img src="unidog.png" alt="Logo uni pet" class="img">
+        </div>
+
+
+        <div class="column">
+          <label>Nível de independência</label>
+          <select name="independencia">
+            <option>Baixo (precisa de companhia sempre)</option>
+            <option>Médio</option>
+            <option>Alto</option>
+          </select>
+
+          <label>Ambiente</label>
+          <select name="ambiente">
+            <option>Ambiente amplo</option>
+            <option>Ambiente pequeno</option>
+          </select>
+
+          <label>Fotos</label>
+          <div class="upload-area">Arraste e solte o arquivo</div>
+          
+          <button type="button" class="add-photo">+</button>
+
+          <label>Requisitos para adoção</label>
+          <input type="text" placeholder="Defina um requisito" class="requisito-input">
+          <button type="button" class="add-req">+</button>
+        </div>
+        
+       
+
+        <button type="submit" class="confirm-btn">Confirmar</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>

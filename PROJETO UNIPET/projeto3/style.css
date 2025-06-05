@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lobster', cursive;
+    background-color: #2d4b5b;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 40px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 40px;
+    color: #000;
+  }
+  
+  .form {
+    display: flex;
+    gap: 30px;
+    background-color: #2d4b5b;
+  }
+  
+  .form-left,
+  .form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    color: #fdbb3c;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .input-icon {
+    position: relative;
+  }
+  
+  .input-icon input {
+    padding-right: 30px;
+  }
+  
+  .input-icon .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #mapa {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-cadastrar {
+    background-color: #fdbb3c;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-login {
+    background-color: #ccc;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  

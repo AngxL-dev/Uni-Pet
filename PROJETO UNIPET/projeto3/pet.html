@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UniPet - Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="unipetdog.png" alt="UniPet logo">
+     
+    </div>
+
+    <form class="form">
+      <div class="form-left">
+        <label for="nome">Nome Do Responsavel:</label>
+        <input type="text" id="nome" placeholder="Seu nome">
+
+        <label for="email">Email:</label>
+        <div class="input-icon">
+          <input type="email" id="email" placeholder="nome@email.com">
+          <span class="icon">📧</span>
+        </div>
+
+        <label for="whatsapp">Whatsapp:</label>
+        <input type="text" id="whatsapp" placeholder="(00)0000-0000">
+
+        <label for="senha">Senha:</label>
+        <div class="input-icon">
+          <input type="password" id="senha" placeholder="**********">
+          
+        </div>
+
+        <label for="confirmar">Confirmar Senha:</label>
+        <div class="input-icon">
+          <input type="password" id="confirmar" placeholder="**********">
+          
+        </div>
+      </div>
+
+      <div class="form-right">
+        <label for="cep">Cep:</label>
+        <input type="text" id="cep" placeholder="13254-000">
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" placeholder="Rua..." oninput="debouncedBuscarEndereco()">
+
+        <div id="mapa"></div>
+
+        <button type="submit" class="btn-cadastrar">Cadastrar</button>
+        <button type="button" class="btn-login">Já possui conta?</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
